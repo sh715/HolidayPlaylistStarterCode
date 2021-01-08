@@ -1,0 +1,82 @@
+
+header{
+  text-align: center;
+  color: #409c45;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* you can add as many colors in the gradient as you'd like */
+/* you can also use an image for your background or solid colors */
+body{
+  background-image: linear-gradient(#e4b8ad, #a4d1a4);
+}
+
+main{
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* images! */
+.column {
+  float: left;
+  width: 33%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* feel free to change the colors */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ad391c;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+/* actual playlist text */
+.column2 {
+  float: left;
+  width: 33.33%;
+}
+
+.title{
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+  text-align: center;
+}
